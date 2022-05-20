@@ -46,6 +46,7 @@ public:
                     , int numberOfForeignPassport) : Passport(numberOfPassport, nameOfPerson, passportInfo) {
         this->infoAboutVisa = infoAboutVisa;
         this->numberOfForeignPassport = numberOfForeignPassport;
+        cout << "ForeignPassport constructor completed" << endl;
     }
 
     const string &getInfoAboutVisa() const;
@@ -76,7 +77,6 @@ int ForeignPassport::getNumberOfForeignPassport() const {
 
 int main() {
     ForeignPassport fp = ForeignPassport(123, "Andrew", "[passportInfo]", "[infoAboutVisa]", 321);
-    cout << "ForeignPassport constructor completed" << endl;
 
     cout << fp.getNameOfPerson() << endl;
     cout << fp.getNumberOfForeignPassport() << endl;
