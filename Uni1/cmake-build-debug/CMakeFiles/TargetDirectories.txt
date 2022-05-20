@@ -1,0 +1,3 @@
+Z:/javaProjects/ClionProjects/Uni1/cmake-build-debug/CMakeFiles/edit_cache.dir
+Z:/javaProjects/ClionProjects/Uni1/cmake-build-debug/CMakeFiles/Uni1.dir
+Z:/javaProjects/ClionProjects/Uni1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
